@@ -4,6 +4,8 @@ A Bitcask-style key/value log you can watch. Put a key, overwrite it, delete it,
 
 **Live:** [glibmiklushys.github.io/casksight](https://glibmiklushys.github.io/casksight/)
 
+![Casksight key/value log](docs/screenshot.png)
+
 This is the same idea as [KeelDB](https://github.com/glibmiklushys/keeldb), the C++20 engine: CRC records, an in-memory index, crash-style replay as “the log is the truth.” Here the “disk” is a byte array so the tests stay deterministic and the page can step through every append.
 
 ## Bitcask, in short
